@@ -20,6 +20,7 @@ import { FlashList } from "@shopify/flash-list";
 import { ListItem, ScreenWidth } from "@rneui/base";
 import { Toast, useToastState } from '@tamagui/toast';
 import { YStack } from 'tamagui';
+import supabase from "../supabaseClient";
 
 export default function Home() {
   const bottomSheetRef = useRef<BottomSheet>(null);
